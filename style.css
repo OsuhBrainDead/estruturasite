@@ -1,0 +1,25 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: dimgrey;
+    color: rgb(199, 187, 184);
+    padding: 10px;
+    text-align: center;
+}
+
+main{
+    padding: 20px;
+    display: contents;
+}
+
+.bloco{
+    border: 1px;
+    margin: 20px 0;
+    padding: 15px;
+    background: rgb(red, green, blue);
+}
+
