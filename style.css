@@ -7,9 +7,22 @@ body {
 header{
     background-color: dimgrey;
     color: rgb(199, 187, 184);
-    padding: 10px;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+}
+h1{
+    margin: 10;
     text-align: center;
 }
+.logo{
+    row-gap: 0px;
+    width: 100px;
+    height: 65px;
+    display: flex;
+    position: relative;
+}
+
 
 main{
     padding: 20px;
@@ -20,6 +33,24 @@ main{
     border: 1px;
     margin: 20px 0;
     padding: 15px;
-    background: rgb(red, green, blue);
+    background-color: dimgrey\;
 }
+
+.descricao {
+    text-align: left;
+}
+
+.botao{
+    display: block;
+    margin: 10px auto;
+    background-color: transparent;
+    cursor: pointer;
+    height: 50px;
+    width: 80px;
+}
+.botao:hover{
+    background-color: gray;
+}
+
+
 
